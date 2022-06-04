@@ -5,7 +5,7 @@
   padding: 40px;
   max-width: 750px;
   width: 100%;
-  background-color: $lite-bg;
+  background-color: var(#{--components-background-default});
   box-shadow: $box-shadow;
   border-radius: $border-radius;
 
@@ -53,6 +53,6 @@
   }
 
   &__title {
-    color: $lite-color;
+    color: var(#{--text-color-default});
   }
 }
